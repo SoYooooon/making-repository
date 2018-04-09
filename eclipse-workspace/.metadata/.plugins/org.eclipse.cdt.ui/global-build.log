@@ -1,0 +1,583 @@
+11:47:13 **** Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:4:2: warning: implicit declaration of function ‘print’ [-Wimplicit-function-declaration]
+  print("Hello World!\n");
+  ^
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+./main.o: In function `main':
+/home/ymcas/oss/eclipse-workspace/project1/Debug/../main.c:4: undefined reference to `print'
+makefile:29: recipe for target 'project1' failed
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+11:48:03 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:48:14 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:50:59 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:16:2: warning: implicit declaration of function ‘print’ [-Wimplicit-function-declaration]
+  print("Hello World!\n");
+  ^
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+./main.o: In function `main':
+/home/ymcas/oss/eclipse-workspace/project1/Debug/../main.c:16: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+makefile:29: recipe for target 'project1' failed
+make: *** [project1] Error 1
+11:51:05 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+./main.o: In function `main':
+/home/ymcas/oss/eclipse-workspace/project1/Debug/../main.c:16: undefined reference to `print'
+makefile:29: recipe for target 'project1' failed
+collect2: error: ld returned 1 exit status
+make: *** [project1] Error 1
+11:51:31 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:51:36 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:07 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:52:12 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:53:14 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:53:18 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:54:19 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:54:24 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:06 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:56:09 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:57:13 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:57:17 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:15 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:58:19 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:58:48 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:18:11: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+    printf("%d/%d/%d\n",i,flag);
+           ^
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:58:52 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:59:40 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+11:59:44 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:00:59 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+12:01:03 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:05:21 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+12:05:25 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:05:55 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:10:14 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:13:35 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+00:57:11 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+01:25:01 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:32 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:4:10: warning: unused variable ‘flag’ [-Wunused-variable]
+subdir.mk:18: recipe for target 'main.o' failed
+  int i,j,flag;
+          ^
+../main.c:4:8: warning: unused variable ‘j’ [-Wunused-variable]
+  int i,j,flag;
+        ^
+../main.c:4:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i,j,flag;
+      ^
+../main.c: At top level:
+../main.c:8:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [main.o] Error 1
+23:24:46 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:4:10: warning: unused variable ‘flag’ [-Wunused-variable]
+  int i,j,flag;
+          ^
+../main.c:4:8: warning: unused variable ‘j’ [-Wunused-variable]
+subdir.mk:18: recipe for target 'main.o' failed
+  int i,j,flag;
+        ^
+../main.c:4:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i,j,flag;
+      ^
+../main.c: At top level:
+../main.c:8:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [main.o] Error 1
+23:25:07 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project1
+Invoking: GCC C Linker
+gcc  -o "project1"  ./main.o   
+Finished building target: project1
+ 
+23:25:12 **** Incremental Build of configuration Debug for project project1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:11 **** Build of configuration Debug for project open ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: open
+Invoking: GCC C Linker
+gcc  -o "open"  ./main.o   
+Finished building target: open
+ 
+21:00:42 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:18 **** Incremental Build of configuration Debug for project open ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: open
+Invoking: GCC C Linker
+gcc  -o "open"  ./main.o   
+Finished building target: open
+ 
+21:01:25 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:16 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:44 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:05 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:09 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:29 **** Incremental Build of configuration Debug for project open ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:40 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:10:00 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:10:56 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:21:37 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:22:06 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:26:26 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:27:23 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:30:12 **** Incremental Build of configuration Debug for project open ****
+make all 
+Cannot run program "make": Unknown reason
+21:34:18 **** Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:35:43 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:38:15 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:43:08 **** Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:45:50 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:45:55 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+Cannot run program "make": Unknown reason
+21:51:37 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: assignment1
+Invoking: GCC C Linker
+gcc  -o "assignment1"  ./main.o   
+Finished building target: assignment1
+ 
+21:51:43 **** Incremental Build of configuration Debug for project assignment1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:20 **** Build of configuration Debug for project open ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: open
+Invoking: GCC C Linker
+gcc  -o "open"  ./main.o   
+Finished building target: open
+ 
+22:01:02 **** Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+22:01:17 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:31 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+22:02:37 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:03:29 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+22:03:34 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:04:19 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:08 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+22:10:13 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:25:40 **** Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+05:25:50 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:26:30 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:26:39 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:28:51 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:29:19 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:37:07 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+05:37:17 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:37:46 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:37:51 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+05:47:53 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+05:48:10 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+06:31:22 **** Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+06:31:58 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+06:32:38 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+06:33:49 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+06:33:57 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
+06:38:05 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: project01
+Invoking: GCC C Linker
+gcc  -o "project01"  ./main.o   
+Finished building target: project01
+ 
+06:38:25 **** Incremental Build of configuration Debug for project project01 ****
+make all 
+make: Nothing to be done for 'all'.
